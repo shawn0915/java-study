@@ -6,5 +6,5 @@
 ## Content
 
 - [JDK](jdk/README.md)
-- [BE-Framework](framework-BE/README.md)
-- [FE-Framework](framework-FE/README.md)
+- [Back-End Framework](framework-BE/README.md)
+- [Front-End Framework](framework-FE/README.md)
