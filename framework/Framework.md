@@ -1,19 +1,33 @@
 # Framework
 
 
-1. ORM
-1. EJB3
+1. [ORM](#orm)
+1. [EJB3](#ejb3)
+1. [REF](#ref)
 
 ## ORM
 **Object Relational Mapping**
 
 1. [~~RedHat Hibernate~~](orm/hibernate/Hibernate.md)
 1. [~~Apache ibatis~~](http://ibatis.apache.org/)
-1. MyBatis
+1. [MyBatis](orm/mybatis/MyBatis.md)
 
-## EJB3
+## ~~EJB~~
 
+1. [EJB3](ejb/EJB3.md)
 
+## Struts
+
+1. ~~Struts1~~
+1. Struts2
+
+## ~~jBPM~~
+
+Java Business Process Management
+
+RedHat JBoss jBPM
+
+[jbpm.org](http://www.jbpm.org)
 
 ## REF
 
@@ -49,13 +63,15 @@ todo
 - Dubbo
 - Dubbox: 分布式服务发现, 治理, 调用框架
 - Spring-Framework: 框架集成, IoC, AoP, Tx
-- Freemarker: 后端模版引擎
 - Spring-Retry: 重试框架
 - Swagger: Api管理框架
 - OkHttp3: http调用框架
 - jeesite
 
-Struts/Tiles
+apache Struts
+struts.apache.org
+
+Tiles
 
 Spring Bean/DI/IcC
 

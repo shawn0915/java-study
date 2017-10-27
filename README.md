@@ -1,11 +1,12 @@
 # java-study
 
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![JDK](https://img.shields.io/badge/JDK-8u152-brightgreen.svg)](README.md)
+[![license](svg/license-MIT-blue.svg)](LICENSE)
+[![JDK](svg/JDK-8-brightgreen.svg)](README.md)
 
 
 ## Content
 
+1. [~~SUN~~Oracle Java](jdk/JDK.md)
 1. [Java SE](javase/JavaSE.md)
 1. [Java Web](javaweb/JavaWeb.md)
 1. [JDBC](jdbc/JDBC.md)
