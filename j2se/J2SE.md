@@ -24,13 +24,14 @@ Content
 
 **New Features**
 
-- JDK5新特性
+- [JDK5 New Features](#jdk5newfeatures)
   - [自动装箱和拆箱](#自动装箱和拆箱)
   - [泛型](#泛型)
   - [增强for循环](#增强for循环)
   - 静态导入
   - [可变参数](#可变参数)
   - [Enum](#enum)
+  - [Annotation](#annotation)
 - [JDK7 New Features](#jdk7newfeatures)
   - 二进制字面量
   - 数字字面量可以出现下划线
@@ -69,6 +70,79 @@ final
 1. 有继承关系	
 1. 有方法重写	
 1. 有父类引用指向子类对象
+
+对象在不同时刻表现出来的不同状态。
+
+举例：
+	猫(猫,动物)
+	水(液态,固态,气态)
+
+前提：
+	A:要有类的继承或者接口的实现
+	B:要有方法的重写
+	C:父类(接口)引用指向子类对象
+
+```
+class Fu
+{
+	int num = 10;
+	public void show()
+	{
+		sop("fu");
+	}
+}
+
+class Zi extends Fu
+{
+	int num = 20;
+	public void show()
+	{
+		sop("zi");
+	}
+
+	public void paly()
+	{
+		sop("魔兽世界");
+	}
+}
+
+class Zi2 extends Fu
+{
+	public void show()
+	{
+		sop("zi2");
+	}
+}
+
+class Test
+{
+	public static void main(String[] args)
+	{
+		//Fu f = new Fu();
+		//Zi z = new Zi();
+		
+		//多态
+	
+		Fu f = new Zi();
+		f.show(); //zi
+		sop(f.num);//10
+
+		f = new Zi2();
+		f.show();
+
+		//f.play();
+		
+
+		/*
+		Zi z = new Zi();
+		z.show();
+
+		Zi2 z2 = new Zi2();
+		z2.show();
+		*/
+	}
+}
+```
 
 
 ### 类之间的关系
@@ -377,7 +451,9 @@ Proxy类中的方法创建动态代理类对象
 `Object invoke(Object proxy,Method method,Object[] args)`
 
 
-## Enum
+## JDK5NewFeatures
+
+### Enum
 枚举
 
 是指将变量的值一一列出来,变量的值只限于列举出来的值的范围内。
@@ -387,6 +463,9 @@ public enum 枚举类名 {
 			枚举项1，枚举项2，枚举项3…;
 }
 ```
+
+### Annotation
+注解
 
 
 ## JDK7NewFeatures
@@ -427,7 +506,7 @@ try(必须是java.lang.AutoCloseable的子类对象){…}
 todo
 ---
 
-注解 Annotation
+
 
 面向切面的变成 AOP
 
