@@ -7,7 +7,7 @@
 ## Content
 
 1. [~~SUN~~Oracle Java](jdk/JDK.md)
-1. [Java SE](javase/JavaSE.md)
+1. [J2SE](j2se/J2SE.md)
 1. [Java Web](javaweb/JavaWeb.md)
 1. [JDBC](jdbc/JDBC.md)
 1. [Framework](framework/Framework.md)
