@@ -2,7 +2,7 @@
 
 Persistence
 
-O-R Mapping
+O-R Mapping (Object/Relational Mapping)
 
 HQL (Hibernate Query Language)
 
@@ -12,3 +12,4 @@ HQL (Hibernate Query Language)
 ## REF
 
 - [hibernate](http://hibernate.org/orm/)
+- [Mybatis与Hibernate的详细对比](http://blog.csdn.net/jiuqiyuliang/article/details/45378065)

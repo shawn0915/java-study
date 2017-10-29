@@ -2,7 +2,9 @@
 
 
 1. [ORM](#orm)
-1. [EJB3](#ejb3)
+1. [~~EJB~~](#ejb)
+1. [~~jBPM~~](#jbpm)
+1. [Struts](#struts)
 1. [REF](#ref)
 
 ## ORM
@@ -12,22 +14,22 @@
 1. [~~Apache ibatis~~](http://ibatis.apache.org/)
 1. [MyBatis](orm/mybatis/MyBatis.md)
 
-## ~~EJB~~
+## EJB
 
 1. [EJB3](ejb/EJB3.md)
+
+## jBPM
+Java Business Process Management
+
+RedHat JBoss jBPM
+
+[jbpm.org](http://www.jbpm.org)
 
 ## Struts
 
 1. ~~Struts1~~
 1. Struts2
 
-## ~~jBPM~~
-
-Java Business Process Management
-
-RedHat JBoss jBPM
-
-[jbpm.org](http://www.jbpm.org)
 
 ## REF
 
