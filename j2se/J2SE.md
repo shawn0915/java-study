@@ -132,12 +132,12 @@ throw则是抛出了异常，执行throw则一定抛出了某种异常   
 多线程
 
 多线程实现方案：
-- 继承Thread类
-- 实现Runnable接口
-- 实现Callable，需和线程池结合
+- **继承Thread类**
+- **实现Runnable接口**
+- 实现Callable，需和**线程池**结合
 
-同步方式：
-- 同步代码块
+解决线程安全，关键在于**锁**对象，同步方式：
+- 同步代码块 `synchronized(对象){需要同步的代码;}`
 - 同步方法
 
 启动一个线程是run()还是start()的区别：
@@ -156,10 +156,32 @@ sleep()和wait()方法的区别：
 - 新建 -- 就绪 -- 运行 -- 死亡
 - 新建 -- 就绪 -- 运行 -- **阻塞** -- 就绪 -- 运行 -- 死亡
 
+![thread-lifecycle](img/thread-lifecycle.png)
+![thread-trans](img/thread-trans.jpg)
+
 线程的被阻塞状态：
 - 线程中调用了sleep()方法
 - 线程调用了一个在I/O上被阻塞的操作
 - 线程试图获得某个对象的锁，但该锁正在被其它线程占用
+
+线程控制：
+- 线程休眠
+`public static void sleep(long millis)`
+- 线程加入
+`public final void join()`
+- 线程礼让
+`public static void yield()`
+- 后台线程
+`public final void setDaemon(boolean on)`
+- 中断线程
+```
+public final void stop()
+public void interrupt()
+```
+
+死锁问题(Dead Lock):
+
+
 
 ## Collection
 集合
