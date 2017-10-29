@@ -11,21 +11,34 @@ Content
 - [Multi-Threaded](#multi-threaded)
 - [Collection](#collection)
 - [IOStream](#idstream)
-- [Socket](#socket)
-- [AWT](#awt)
 - [API](#api)
+- [AWT](#awt)
+- [Socket](#socket)
 
 **Advanced Features**
 
 - Annotation
-- Reflect
+- [ClassLoader](#classloader)
+- [Reflect](#reflect)
 - Proxy
 
 **New Features**
 
-- 枚举
-- [泛型](#泛型)
-- [增强for](#增强for)
+- JDK5新特性
+  - [自动装箱和拆箱](#自动装箱和拆箱)
+  - [泛型](#泛型)
+  - [增强for循环](#增强for循环)
+  - 静态导入
+  - [可变参数](#可变参数)
+  - [Enum](#enum)
+- [JDK7 New Features](#jdk7newfeatures)
+  - 二进制字面量
+  - 数字字面量可以出现下划线
+  - switch 语句可以用字符串
+  - 泛型简化
+  - 异常的多个catch合并
+  - try-with-resources 语句
+
 
 ## OOP
 Object Oriented Programming
@@ -256,19 +269,6 @@ Java中有几种类型的流？JDK为每种类型的流提供了一些抽象类�
 
 什么是Java序列化，如何实现Java序列化？
 
-## Socket
-
-
-
-## AWT
-
-java.awt
-
-### Swing
-
-awt的补充
-
-JFrame
 
 
 ## API
@@ -285,9 +285,9 @@ Application Programming Interface, 应用程序变成接口
 - Date类/DateFormat类/Calendar类
 
 
-### 装箱/拆箱
+### 自动装箱和拆箱
 
-静态引用
+静态导入
 
 JDK1.5以后，简化了定义方式。
 ```
@@ -305,7 +305,7 @@ x  = x + 5;//自动拆箱。通过intValue方法。
 
 
 
-## 增强for
+### 增强for循环
 
 ```
 for(元素数据类型 变量 : 数组或者Collection集合) {
@@ -314,30 +314,120 @@ for(元素数据类型 变量 : 数组或者Collection集合) {
 ```
 
 
+## AWT
+Abstract Window ToolKit
+
+java.awt
+
+### Swing
+
+awt的补充
+
+JFrame
+
+javax.swing
 
 
+
+## Socket
+
+
+网络模型：
+- OSI 参考模型
+Open System Interconnection 开放系统互连
+- TCP/IP 参考模型
+
+Socket机制：
+App A <=> Socket <=> Port A <<= IO Stream =>> Port B <=> Socket <=> App B
+
+TCP,UDP:
+- TCP: Transmission Control Protocol
+- UDP: User Datagram Protocol
+
+
+
+## ClassLoader
+类加载器
+
+负责将.class文件加载到内在中，并为之生成对应的Class对象。
+虽然我们不需要关心类加载机制，但是了解这个机制我们就能更好的理解程序的运行。
+
+类加载器的组成
+- Bootstrap ClassLoader 根类加载器
+- Extension ClassLoader 扩展类加载器
+- Sysetm ClassLoader 系统类加载器
+
+
+## Reflect
+反射
+
+JAVA反射机制是在运行状态中，对于任意一个类，都能够知道这个类的所有属性和方法；对于任意一个对象，都能够调用它的任意一个方法和属性；这种动态获取的信息以及动态调用对象的方法的功能称为java语言的反射机制。
+
+
+## 动态代理
+
+在Java中java.lang.reflect包下提供了一个Proxy类和一个InvocationHandler接口，通过使用这个类和接口就可以生成动态代理对象。JDK提供的代理只能针对接口做代理。我们有更强大的代理cglib
+
+Proxy类中的方法创建动态代理类对象
+
+`public static Object newProxyInstance(ClassLoader loader,Class<?>[] interfaces,InvocationHandler h)`
+
+最终会调用InvocationHandler的方法
+
+`Object invoke(Object proxy,Method method,Object[] args)`
+
+
+## Enum
+枚举
+
+是指将变量的值一一列出来,变量的值只限于列举出来的值的范围内。
+
+```
+public enum 枚举类名 {
+			枚举项1，枚举项2，枚举项3…;
+}
+```
+
+
+## JDK7NewFeatures
+
+### 二进制字面量
+
+JDK7开始，终于可以用二进制来表示整数（byte,short,int和long）。使用二进制字面量的好处是，可以使代码更容易被理解。语法非常简单，只要在二进制数值前面加 0b或者0B
+举例：
+int x = ob110110
+
+### 数字字面量可以出现下划线
+
+为了增强对数值的阅读性，如我们经常把数据用逗号分隔一样。JDK7提供了_对数据分隔。
+举例：
+int x = 100_1000;
+注意事项：
+不能出现在进制标识和数值之间
+不能出现在数值开头和结尾
+不能出现在小数点旁边
+
+### switch 语句可以用字符串
+
+### 泛型简化
+
+### 异常的多个catch合并
+
+### try-with-resources 语句
+
+格式：
+try(必须是java.lang.AutoCloseable的子类对象){…}
+好处：
+资源自动释放，不需要close()了
+把需要关闭资源的部分都定义在这里就ok了
+主要是流体系的对象是这个接口的子类(看JDK7的API)
 
 
 
 todo
 ---
 
-## 枚举
-
-JDK5新特性
-
-
-
-
-
-## 注解 Annotation
-
-## 反射 reflect
-
-## 代理 Proxy
+注解 Annotation
 
 面向切面的变成 AOP
-
-
-
 
