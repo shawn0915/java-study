@@ -1,10 +1,16 @@
 # RedHat JBoss Hibernate
 
-Persistence
+## Persistence
 
-O-R Mapping (Object/Relational Mapping)
+- PO = Persistence Object
+- DAO = Data Access Object
 
-HQL (Hibernate Query Language)
+hbm.xml
+
+## O-R Mapping (Object/Relational Mapping)
+
+## HQL (Hibernate Query Language)
+
 
 二级缓存
 
