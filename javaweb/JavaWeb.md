@@ -11,6 +11,9 @@
 
 MVC
 
+![mvc1](img/mvc_v1.png)
+![mvc2](img/mvc_v2.png)
+
 Model 2
 
 JSP + JavaBean + Servlet

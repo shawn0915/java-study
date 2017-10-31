@@ -450,6 +450,8 @@ Proxy类中的方法创建动态代理类对象
 
 `Object invoke(Object proxy,Method method,Object[] args)`
 
+- JDK动态代理
+- cglib动态代理
 
 ## JDK5NewFeatures
 
