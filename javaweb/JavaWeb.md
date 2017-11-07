@@ -11,12 +11,12 @@
 
 MVC
 
-![mvc1](img/mvc_v1.png)
-![mvc2](img/mvc_v2.png)
+![mvc_v1](img/mvc_v1.png)
+![mvc_v2](img/mvc_v2.png)
 
 Model 2
 
-JSP + JavaBean + Servlet
+Servlet + JSP + JavaBean
 
 ## Concept 3
 
