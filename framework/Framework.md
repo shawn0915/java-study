@@ -32,12 +32,13 @@ RedHat JBoss jBPM
 View, Controller
 
 1. ~~Struts1~~
-1. [Struts2](mvc/struts/Struts2.md)
+1. [Struts2](struts/Struts2.md)
 
 ### Spring
 Model--biz
 
-1. [Spring Framework](mvc/spring/SpringFramework.md)
+1. [Spring Framework](spring/SpringFramework.md)
+1. [Spring Boot](spring/SpringBoot.md)
 
 ## Dubbo
 
