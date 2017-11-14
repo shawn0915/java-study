@@ -14,5 +14,5 @@ v1.1.5
 
 ## REF
 
-- [druid-github](https://github.com/alibaba/druid)
-- [druid-wiki](https://github.com/alibaba/druid/wiki)
+- [alibaba/druid](https://github.com/alibaba/druid)
+- [druid/wiki](https://github.com/alibaba/druid/wiki)
