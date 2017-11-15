@@ -4,6 +4,7 @@ v1.1.5
 
 ## mvn
 
+- druid
 ```xml
 <dependency>
     <groupId>com.alibaba</groupId>
@@ -12,11 +13,22 @@ v1.1.5
 </dependency>
 ```
 
+- druid-spring-boot-starter
+```xml
+<dependency>
+   <groupId>com.alibaba</groupId>
+   <artifactId>druid-spring-boot-starter</artifactId>
+   <version>1.1.5</version>
+</dependency>
+```
+
 ## monitor
 
+- WebStatFilter
 
 
 ## REF
 
 - [alibaba/druid](https://github.com/alibaba/druid)
 - [druid/wiki](https://github.com/alibaba/druid/wiki)
+- [alibaba/druid-spring-boot](https://github.com/alibaba/druid/tree/master/druid-spring-boot-starter)

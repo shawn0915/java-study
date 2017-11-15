@@ -57,33 +57,33 @@ Model -- biz -- Spring Framework
 
 ## Dubbo
 
-- [Dubbo](dubbo/Dubbo.md)
-- Dubbox
+- [Alibaba/Dubbo](dubbo/Dubbo.md)
+- [dangdangdotcom/Dubbox](https://github.com/dangdangdotcom/dubbox)
 
-## Log
+## Logging
 
 - Slf4j
-- log4j
-- log4j2
+- [Apache Log4j 2](logging/Log4j2.md)
+- [Logback](logging/Logback.md)
+- commons-logging
+- jdklogging
 
 ## Security
 
-- Shiro
+- Apache Shiro
 
 ## REF
 
 - [EJB 3 和 Spring 技术体系比较](http://www.51cto.com/specbook/223/46090.htm)
 
 
-
-
 todo -- Framework Integrate
 ---
 
 - Spring
-  - [ ] Spring Framework
-  - [ ] Spring Boot
+  - [x] Spring Boot
     - [ ] Spring Boot Actuator
+  - [x] Spring Framework
   - [ ] Spring Web
   - [ ] Spring MVC
   - [ ] Spring Session
@@ -98,15 +98,15 @@ todo -- Framework Integrate
   - [ ] Solr
   - [ ] ES
 - Log
-  - [ ] slf4j
-  - [ ] log4j2
+  - [x] slf4j
+  - [x] logback
 - [ ] Email
 - [ ] Freemarker
 - JMS
   - ActiveMQ
 - Shiro
-- zk/dubbo
-- rest/restful
+- ZK/dubbo
+- REST/RESTful
 
 
 todo -- fe
