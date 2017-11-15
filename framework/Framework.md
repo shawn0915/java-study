@@ -51,8 +51,8 @@ View, Controller
 ### Spring
 Model -- biz -- Spring Framework
 
-1. [Spring Boot](spring/SpringBoot.md)
-1. [Spring Framework](spring/SpringFramework.md)
+1. [Spring Boot](spring/springBoot/SpringBoot.md)
+1. [Spring Framework](spring/springFramework/SpringFramework.md)
 1. Spring MVC
 
 ## Dubbo
@@ -62,8 +62,9 @@ Model -- biz -- Spring Framework
 
 ## Log
 
-- log4j
 - Slf4j
+- log4j
+- log4j2
 
 ## Security
 
@@ -76,23 +77,48 @@ Model -- biz -- Spring Framework
 
 
 
-todo
+todo -- Framework Integrate
 ---
 
-spring boot + druid 
-+ mybatis + mysql
-+ log4j2 + slf4j 
-+ oralce + mongodb + redis
-+ spring mvc 
-+ solr + es
-+ activemq 
-+ email + social
+- Spring
+  - [ ] Spring Framework
+  - [ ] Spring Boot
+    - [ ] Spring Boot Actuator
+  - [ ] Spring Web
+  - [ ] Spring MVC
+  - [ ] Spring Session
+  - [ ] Spring Retry
+- Data
+  - [ ] Druid
+  - [ ] Mybatis
+  - [ ] MySQL
+  - [ ] Oracle
+  - [ ] MongoDB
+  - [ ] Redis
+  - [ ] Solr
+  - [ ] ES
+- Log
+  - [ ] slf4j
+  - [ ] log4j2
+- [ ] Email
+- [ ] Freemarker
+- JMS
+  - ActiveMQ
+- Shiro
+- zk/dubbo
+- rest/restful
 
 
-## task
+todo -- fe
+---
+- jQuery
+- layui
+- easyUI
 
+
+mark
+---
 - Elastic-Job: 分布式作业调度框架
-- Spring-Retry: 重试框架
 - Swagger: Api管理框架
 - OkHttp3: http调用框架
 - jeesite

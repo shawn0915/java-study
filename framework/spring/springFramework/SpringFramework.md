@@ -12,7 +12,7 @@
 - Spring MVC
 
 SpringFramework2.0-module
-![module](img/SpringFramework2.0-module.png)
+![module](../img/SpringFramework2.0-module.png)
 
 支持不绑定到特定J2EE服务的可重用业务和数据访问对象。
 
