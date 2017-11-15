@@ -51,9 +51,9 @@ View, Controller
 ### Spring
 Model -- biz -- Spring Framework
 
-1. [Spring Boot](spring/springBoot/SpringBoot.md)
 1. [Spring Framework](spring/springFramework/SpringFramework.md)
 1. Spring MVC
+1. [Spring Boot](spring/springBoot/SpringBoot.md)
 
 ## Dubbo
 

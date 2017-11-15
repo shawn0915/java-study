@@ -2,13 +2,11 @@
 v1.5.8
 
 - [SpringBootActuator](SpringBootActuator.md)
+- [SpringFramework](../springFramework/SpringFramework.md)
+  - [spring-core](../springFramework/SpringCore.md)
 - [Druid](../../connectionpool/druid/Druid.md)
+- [MyBatis](../../orm/mybatis/MyBatis.md)
 
-
-## spring-core
-v4.3.12
-
-自动配置`bean`
 
 ## Command
 
@@ -18,11 +16,6 @@ mvn spring-boot:run
 java -jar target/spring-boot-demo.jar
 ```
 
-
-## 集成Mybatis
-
-mybaits-spring-boot-starter
-![mybaits-spring-boot-starter](../img/mybaits-spring-boot-starter.jpg)
 
 ## REF
 

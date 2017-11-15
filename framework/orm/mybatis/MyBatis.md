@@ -22,6 +22,11 @@
 
 mybatis-spring
 
+## Spring Boot 集成 MyBatis
+
+mybaits-spring-boot-starter
+![mybaits-spring-boot-starter](img/mybaits-spring-boot-starter.jpg)
+
 ## REF
 
 - [mybatis/mybatis-3](https://github.com/mybatis/mybatis-3)
