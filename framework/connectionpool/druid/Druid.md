@@ -2,6 +2,14 @@
 v1.1.5
 
 
+## Concept
+
+- datasource
+- filter
+  - wallFilter
+- WebStatFilter
+- StatViewServlet
+
 ## mvn
 
 - druid
@@ -22,13 +30,10 @@ v1.1.5
 </dependency>
 ```
 
-## monitor
-
-- WebStatFilter
-
 
 ## REF
 
 - [alibaba/druid](https://github.com/alibaba/druid)
 - [druid/wiki](https://github.com/alibaba/druid/wiki)
 - [alibaba/druid-spring-boot](https://github.com/alibaba/druid/tree/master/druid-spring-boot-starter)
+- [为Druid监控配置访问权限](http://blog.csdn.net/renfufei/article/details/39553639)

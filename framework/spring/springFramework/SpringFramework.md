@@ -45,3 +45,7 @@ AspectJ切入点(pointcut)语言
 ## REF
 
 - [spring](https://spring.io)
+
+## Book
+
+- [spring-in-action-fourth-edition](https://www.manning.com/books/spring-in-action-fourth-edition)

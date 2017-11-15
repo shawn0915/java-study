@@ -10,25 +10,27 @@
 - [Struts](#struts)
 - [Spring](#spring)
 - [Dubbo](#dubbo)
-- [Log](#log)
+- [Logging](#logging)
 - [Security](#security)
 - [REF](#ref)
 
 ## ConnectionPool
 
 1. c3p0
-1. [Apache DBCP](http://commons.apache.org/proper/commons-dbcp/)
-1. [Alibaba Druid](connectionpool/druid/Druid.md)
+1. [Apache Commons DBCP](http://commons.apache.org/proper/commons-dbcp/)
+1. [Tomcat JDBC](https://tomcat.apache.org/tomcat-8.5-doc/jdbc-pool.html)
+1. [**Alibaba Druid**](connectionpool/druid/Druid.md)
 1. JBoss
-1. weblogic
-1. websphere
+1. WebLogic
+1. WebSphere
+1. [HikariCP](http://mvnrepository.com/artifact/com.zaxxer/HikariCP)
 
 ## ORM
 **Object Relational Mapping**
 
-1. [~~RedHat Hibernate~~](orm/hibernate/Hibernate.md)
+1. [RedHat Hibernate](orm/hibernate/Hibernate.md)
 1. [~~Apache ibatis~~](http://ibatis.apache.org/)
-1. [MyBatis](orm/mybatis/MyBatis.md)
+1. [**MyBatis**](orm/mybatis/MyBatis.md)
 
 ## EJB
 Enterprise JavaBeans
@@ -82,14 +84,14 @@ todo -- Framework Integrate
 
 - Spring
   - [x] Spring Boot
-    - [ ] Spring Boot Actuator
+    - [x] Spring Boot Actuator
   - [x] Spring Framework
   - [ ] Spring Web
   - [ ] Spring MVC
   - [ ] Spring Session
   - [ ] Spring Retry
 - Data
-  - [ ] Druid
+  - [x] Druid
   - [ ] Mybatis
   - [ ] MySQL
   - [ ] Oracle
@@ -111,9 +113,15 @@ todo -- Framework Integrate
 
 todo -- fe
 ---
+
+- js
 - jQuery
 - layui
 - easyUI
+- bootstrap
+- node.js
+- vue.js
+- mock.js
 
 
 mark
