@@ -22,7 +22,8 @@ v3.4.5
 
 mybatis-spring
 
-## Spring Boot 集成 MyBatis
+## MyBatis-Spring-Boot-Starter
+v1.3.1
 
 mybaits-spring-boot-starter
 ![mybaits-spring-boot-starter](img/mybaits-spring-boot-starter.jpg)
