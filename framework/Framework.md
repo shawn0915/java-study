@@ -12,7 +12,7 @@
 - [Dubbo](#dubbo)
 - [Logging](#logging)
 - [Security](#security)
-- [REF](#ref)
+- [Reference](#reference)
 
 ## ConnectionPool
 
@@ -54,7 +54,6 @@ View, Controller
 Model -- biz -- Spring Framework
 
 1. [Spring Framework](spring/SpringFramework.md)
-1. Spring MVC
 1. [Spring Boot](spring/SpringBoot.md)
 
 ## Dubbo
@@ -74,7 +73,7 @@ Model -- biz -- Spring Framework
 
 - Apache Shiro
 
-## REF
+## Reference
 
 - [EJB 3 和 Spring 技术体系比较](http://www.51cto.com/specbook/223/46090.htm)
 
